@@ -1,0 +1,271 @@
+#instituations (primary, secondary, higher secondary etc) -  2008 - 2011
+https://data.gov.in/catalog/number-recognised-educational-institutions-higher-learning-all-india-and-state-wise
+
+#scholars in recognised institution (primary to higher secondary school) - 2014
+
+https://data.gov.in/catalog/enrolment-school-education-courses-and-stages-recognised-institutions
+does scholars refer to students. probably referring to students with excellent grades
+It is given for primary school to higher secondary school
+
+Note:
+Original Data Source: Department of Education, Ministry of Human Resource Development and published in Statistical Year Book-2014 by MoSPI.
+
+So I feel it should be 2014. 
+gender is also taken into consideration
+
+
+#teachers (primary, secondary,higher secondary) - 2008-2011
+
+https://data.gov.in/catalog/number-teachers-educational-institutions-all-india-and-state-wise
+
+gender is also taken into consideration
+
+#literacy rate - 1991, 2001, 2011
+
+https://data.gov.in/catalog/literacy-rate-india-nsso-and-rgi
+
+gender is taken into account
+
+
+#female-teachers-per-100-male-teachers
+
+https://data.gov.in/catalog/literacy-rate-india-nsso-and-rgi
+
+data given only for 5 states - what to do? consider less
+
+#interventions-to-improve-facilities
+
+statewise comparison
+few facilities given
+Not all the state information is present
+
+#teacher-report
+conductance of teacher on presence for the class, in terms of punishment
+sample survey
+state-wise
+some state not given - but all india average is given
+
+https://data.gov.in/catalog/student-responses-teacher-attendance-and-punishment-based-sample-survey
+
+#effectiveness of district teams - sample survey
+state wise
+but information is partial
+https://data.gov.in/catalog/effectiveness-district-level-monitoring-teams-based-sample-survey
+
+- not sure whether to take it
+
+#school distance 
+statewise
+partial information
+one given in %
+it is good to have - let us see
+https://data.gov.in/catalog/distance-schools-habitations-student-responses-based-sample-survey
+
+#underserved population
+https://data.gov.in/catalog/underserved-habitations-based-sample-survey
+
+state-wise
+partial information
+one given in %
+it is good to have - let us see
+
+#school-indicators
+state-wise
+partial information
+good to have
+single person female and male teachers - information like that is present
+
+https://data.gov.in/catalog/school-indicators-based-sample-survey
+
+#students - drop - outs
+https://data.gov.in/catalog/out-school-children-based-sample-survey
+state-wise
+partial information
+difficult to figure out what is being said - need to see
+
+#students-percentage-mid-day-meal
+state-wise
+partial information
+https://data.gov.in/catalog/student-attendance-rates-and-midday-meals-based-sample-survey
+
+#teachers-trained
+state-wise
+partial information
+in percentage
+https://data.gov.in/catalog/teachers-trained-based-sample-survey
+
+
+#teachers-interest-in-non-teaching-motivation-levels
+
+https://data.gov.in/catalog/involvement-teachers-non-teaching-activities-and-motivation-levels-based-sample-survey
+
+state-wise
+partial information
+
+# unserved habitations
+state-wise
+2003 and 2007
+https://data.gov.in/catalog/state-wise-number-unserved-habitations
+not sure what it really means
+
+#mid-day-meal-students-opinion
+#mid-day-meal-parents-opinion
+state wise
+partial information
+good one to have
+2010
+https://data.gov.in/catalog/opinion-children-quality-meal-based-sample-survey
+https://data.gov.in/catalog/opinion-parents-quality-meal-based-sample-survey
+
+#children-diversion-time
+state-wise
+partial information
+good one to have
+https://data.gov.in/catalog/diversion-learning-time-children-based-sample-survey
+
+
+# availability of drinking water
+state-wise
+partial
+https://data.gov.in/catalog/drinking-water-facility-and-source-water-based-sample-survey
+sample avg. is given
+2010
+
+# beneficiary-children-parents-occupation
+state-wise#
+partial - but all states given
+not sure - how to use (select the lowest wage and say that it has gone right)
+2010
+https://data.gov.in/catalog/occupation-beneficiary-children-parents-based-sample-survey
+
+beneficiary-children-parents-income.csv
+2010
+state-wise
+https://data.gov.in/catalog/average-annual-income-households-beneficiary-children-based-sample-survey
+
+#kitchen-shed-availability-condition
+state-wise
+partial - but sampling avg given
+need to combine all columns and come up with a score
+
+#mid-day-meal-launch-date
+state-wise
+year given
+need to combine with other meal lunch functionalities
+https://data.gov.in/catalog/launch-mid-day-meal-scheme-across-states-based-sample-survey
+2010
+
+#building-availability-condition
+state-wise
+2010
+partial - sample average given
+https://data.gov.in/catalog/availability-cum-status-school-buildings-based-sample-survey
+
+#utilisation-food-grain
+state-wise
+2010
+https://data.gov.in/catalog/utilisation-foodgrains-based-sample-survey
+
+#frequency of veg, milk, pulse, fruit intake 
+2010
+state-wise
+https://data.gov.in/catalog/frequency-vegetables-intake-beneficiary-children-home-based-sample-survey
+https://data.gov.in/catalog/frequency-pulses-intake-beneficiary-children-home-based-sample-survey
+https://data.gov.in/catalog/frequency-fruits-intake-beneficiary-children-home-based-sample-survey
+https://data.gov.in/catalog/frequency-milk-intake-beneficiary-children-home-based-sample-survey
+average sample given
+
+#store room availability and condition
+
+https://data.gov.in/catalog/availability-store-room-schools-based-sample-survey
+2010
+state-wise
+
+
+FACILITIES 2012-2013
+girls, boys toilet, drinking water, electricity connection, books received, mid day meal, kitchen shed, play ground, ramp, computer aided, computer facility, boundary wall, hand-wash facility
+
+https://data.gov.in/catalog/state-wise-percentage-schools-having-girls-toilet-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-schools-having-boys-toilet-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-schools-having-drinking-water-facility-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-schools-having-electricity-connection-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-government-management-schools-received-text-books-dise-flash
+https://data.gov.in/catalog/state-wise-percentage-schools-providing-midday-meal-government-and-aided-managements-dise
+https://data.gov.in/catalog/state-wise-percentage-schools-having-kitchen-shed-government-and-aided-managements-dise
+https://data.gov.in/catalog/state-wise-percentage-schools-having-playground-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-schools-having-ramp-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-schools-having-computer-aided-learning-cal-facility-dise-flash
+https://data.gov.in/catalog/state-wise-percentage-schools-having-computer-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-schools-having-boundary-wall-dise-flash-statistics
+https://data.gov.in/catalog/state-wise-percentage-schools-having-hand-wash-facility-dise-flash-statistics
+
+#teachers position in primary, secondary, higher secondary schools
+# availability of faciliteis in primary, etc
+https://data.gov.in/catalog/teachers-position-different-categories-schools-provisional-data
+https://data.gov.in/catalog/schools-according-availability-facilities-within-school-premises-provisional-data
+https://data.gov.in/catalog/schools-according-type-building-which-majority-classes-are-held-provisional-data
+https://data.gov.in/catalog/schools-according-type-management-provisional-data
+2009
+state-wise
+
+
+
+unrecognised schools
+https://data.gov.in/catalog/enrolment-unrecognised-schools-provisional-data
+how to use it - take it as a positive factor or negative factor
+
+
+
+#no. of teachers in primary school - urban and rural combined
+
+https://data.gov.in/catalog/number-teachers
+
+Availability of schooling facilities in habitations at primary and upper primary stages as on 30th September 2009
+primary-upper-primary-school-facilities-with-habitations
+
+https://data.gov.in/catalog/school-facilities-habitations-provisional-data
+
+number of teachers in primary and upper primary schools
+number of students
+2001, 2002 ... 2010
+
+https://data.gov.in/catalog/number-teachers
+https://data.gov.in/catalog/number-students
+
+#gross enrollment ratio
+
+https://data.gov.in/catalog/gross-enrolment-ratio-ger-0
+2001...2010
+primary and secondary
+
+gender parity index for primary school - 2001 to 2010
+https://data.gov.in/catalog/gender-parity-index-gpi-primary-education
+
+#trained teacher 2010
+https://data.gov.in/catalog/trained-teacher
+state wise
+2010
+it is avaialble for 2008, 2009 and 2011 and 12
+
+#teachers in training schools 
+2007-08
+https://data.gov.in/catalog/enrolment-teacher-training-schools
+this refers to people who are not teachers but undergoing teacher training
+
+drop out rates 
+2001 to 2010
+https://data.gov.in/catalog/dropout-rates
+in percentage
+
+https://data.gov.in/catalogs/sector/Education-9264#sort_by=created&sort_order=DESC&items_per_page=9&page=2&path=sector/Education-9264
+
+the above link contains information about muslim students and OBC students - will it be good to include
+
+
+
+https://en.wikipedia.org/wiki/2011_Census_of_India
+https://data.gov.in/catalog/demographic-indicators
+- we actually need to state wise data about population of people between 3 or 5 and 17 (lkg, ukg, 1st to 12th standard)
+
+
+
