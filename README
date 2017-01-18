@@ -1,2 +1,32 @@
-More to come.
-this is just  a starting point
+data-cleaning-new-data-set-ipynb
+ - Contains the premilinary data cleaning.
+
+If you want to run it and get a feel of how the changes the happened then delete the new-data-set folder and rename old-data-set and run the program in jupyter notebook and see the step by the step process.
+
+The data that we have got
+
+contains the same 'State/UT' column name across all the files
+contains 35 states and union territories under that name
+contains null values for states whose information is not present
+
+
+We need to select around 10 around attributes. 
+Some of them are
+no. of schools
+no. of teacheres
+no. of students and so on
+
+The above listed need to be normalised against the population of state. I have collected the state population details. I will upload it and will normalize.
+
+Look for other attributes and come up with the ones that we can use.
+
+
+One approach that we are trying to do is to use Tableau software.
+
+Meanwhile, we are trying to make sure that it is possible to do using web front end technologies.
+
+Looked at the tutorial from the following site which uses leaflet libraries
+
+http://leafletjs.com/examples/choropleth/
+
+Trying to download the geoJSON details for india state map and will have a prototype ready as a backup
