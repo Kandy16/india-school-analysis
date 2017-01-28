@@ -1,6 +1,0 @@
-https://data.gov.in/catalog/schools-according-availability-facilities-within-school-premises-provisional-data
-https://data.gov.in/catalog/schools-according-type-management-provisional-data
-https://data.gov.in/catalog/schools-belonging-different-categories-provisional-data
-https://data.gov.in/catalog/number-schools-0
-https://data.gov.in/catalog/dropout-rates
-
