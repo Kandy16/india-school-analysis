@@ -30,3 +30,25 @@ Looked at the tutorial from the following site which uses leaflet libraries
 http://leafletjs.com/examples/choropleth/
 
 Trying to download the geoJSON details for india state map and will have a prototype ready as a backup
+
+
+
+Attributes to be selected
+-------------------------
+no. of schools
+no. of teachers
+no. of students
+students passed percentage
+students drop out rate
+literacy-rate
+trained teachers percentage
+
+Full time teachers vs contract ?? Female vs male
+Govt vs Private ??
+basic facility - drinking water, Toilet facility, hand wash facility, electricity, boundary wall)
+playground facility
+Good Building percentage - compute only pukka and divide by total no. of schools
+Computer facility (take the latest data)
+Computer aided ?? - CAL for only upper primary schools and there is library facility. What does that mean?
+Mid day meal
+text books received
