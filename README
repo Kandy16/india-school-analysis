@@ -35,20 +35,56 @@ Trying to download the geoJSON details for india state map and will have a proto
 
 Attributes to be selected
 -------------------------
+People of age between 3 and 20 are taken and they are estimated as expected number of students in each state
+The 3 attributes are normalized per 100 expected students. The number can be increased for a better representation if needed
+
+Faculty strength
+-------------------
+
 no. of schools
 no. of teachers
-no. of students
-students passed percentage
-students drop out rate
-literacy-rate
-trained teachers percentage
+trained teachers percentage - sometimes schools would not have teachers without appropriate degree (msc, med , mphil)
+Full time teachers vs contract ?? Female vs male (this refers the stability of the teachers, which inturn is a good measure). the teachers would continue doing the stuff if it is full time
 
-Full time teachers vs contract ?? Female vs male
-Govt vs Private ??
+Reg students
+-----------------
+no. of students
+students passed percentage - students who passed out of all the students enrolled
+students drop out rate -students who are not failed but dropped out in the middle
+
+school Indicators
+--------------------------------
+literacy-rate - how many of them are educated. This is an indicator of how well they have done in the past.
 basic facility - drinking water, Toilet facility, hand wash facility, electricity, boundary wall)
 playground facility
-Good Building percentage - compute only pukka and divide by total no. of schools
+Good Building percentage - compute only pukka and divide by total no. of schools. pukka means concrete buildings
 Computer facility (take the latest data)
 Computer aided ?? - CAL for only upper primary schools and there is library facility. What does that mean?
-Mid day meal
-text books received
+Mid day meal - one meal or two provided by schools (govt) during their study period. Most students or children are sent out to work rather than studying because parents were not able to afford food for them
+
+Govt role
+------------
+Govt vs Private ?? - govt - funded by govt. means less fee, shows the govt. involvement. Private - is good for english education, good teaching ??? (some people have strong preference and opinion)
+text books received - refers to the role of the govt. in taking care or spending expenditure in making sure that students get school books
+
+
+
+Our story:
+------------
+
+How people can get benefitted by using this tool?
+Let us say, somebody is migrating to a new state - Bihar people moved to kerala and other states for construction purposes. To Mumbai, lots of people moved there. 
+People who are the above poverty line and lower middle class that is where large numer of people fall into
+
+Interstate migration :
+
+
+
+Look at the gini coefficient and see what all factors are done by almost all of the states good and bad as well. And see what can be done? Otherwise look at the highest gini index and see who is good at what?
+
+North, South, East and West - on specific criterions
+
+Don't get into Gender (male and female), Rural and Urban, language analysis. Since our data does not speak about it
+
+
+
