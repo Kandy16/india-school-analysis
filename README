@@ -1,90 +1,26 @@
-data-cleaning-new-data-set-ipynb
- - Contains the premilinary data cleaning.
+This file will give you information regarding what programs does what in the repository and what is the sequence of actions followed to prepare the final data
 
-If you want to run it and get a feel of how the changes the happened then delete the new-data-set folder and rename old-data-set and run the program in jupyter notebook and see the step by the step process.
+1) 'Old-data-set' and 'Old-facilities' are the folders which contain the data organized in some hierarchy. Each file is downloaded from data.gov.in portal. A copy of those two folders are made with name changed as 'new-data-set' and 'new-facilities'
 
-The data that we have got
+2) Data cleaning and preparation step. Bringing standardisation in names used to represent the state names.
+ 
+'data-cleaning-new-data-set.ipynb' notebook does the whole job and updates all the files in the 'new-data-set' and 'new-facilities' folder
 
-contains the same 'State/UT' column name across all the files
-contains 35 states and union territories under that name
-contains null values for states whose information is not present
+If you want to run it and get a feel of how the changes have happened then delete the new-data-set folder and copy and rename old-data-set and run the program in jupyter notebook and see the step by the step process.
 
+3) We selected 20 attributes by looking the data set and each information is present in a single file.
+Some attributes require normalisation against the expected number of students and so it is calculated inside the folder 'india-age-demography'. We considered the people who are of age between 3 and 20 and consider them to be expected number of students.
 
-We need to select around 10 around attributes. 
-Some of them are
-no. of schools
-no. of teacheres
-no. of students and so on
+Out of the 20 attributes, we have # of shools, students and teachers, which will be high in number for states with large populations. We normalize their counts for 100 expected students in each state. We plan to increase the count 100 to improve the representation of information, if required.
 
-The above listed need to be normalised against the population of state. I have collected the state population details. I will upload it and will normalize.
+Individual custom programs (python notebook files) have been written (if required) to adapt the information as required and stored separately in the same home directory.
 
-Look for other attributes and come up with the ones that we can use.
+Say for e.g '1-#teachers-analysis.ipynb' program takes the teachers data from 'new-data-set' folder and uses the calculated expected number of students from 'india-age-demography' and produces a normalized info and store it in '#teacher.csv'
 
+Sometimes, the required data is copied by hand and stored in file in parallel to other data files.
 
-One approach that we are trying to do is to use Tableau software.
+4) 'consolidate-all-data.ipynb' access each file and consolidates into whole data and create 'final-data.csv'
 
-Meanwhile, we are trying to make sure that it is possible to do using web front end technologies.
-
-Looked at the tutorial from the following site which uses leaflet libraries
-
-http://leafletjs.com/examples/choropleth/
-
-Trying to download the geoJSON details for india state map and will have a prototype ready as a backup
-
-
-
-Attributes to be selected
--------------------------
-People of age between 3 and 20 are taken and they are estimated as expected number of students in each state
-The 3 attributes are normalized per 100 expected students. The number can be increased for a better representation if needed
-
-Faculty strength
--------------------
-
-no. of schools
-no. of teachers
-trained teachers percentage - sometimes schools would not have teachers without appropriate degree (msc, med , mphil)
-Full time teachers vs contract ?? Female vs male (this refers the stability of the teachers, which inturn is a good measure). the teachers would continue doing the stuff if it is full time
-
-Reg students
------------------
-no. of students
-students passed percentage - students who passed out of all the students enrolled
-students drop out rate -students who are not failed but dropped out in the middle
-
-school Indicators
---------------------------------
-literacy-rate - how many of them are educated. This is an indicator of how well they have done in the past.
-basic facility - drinking water, Toilet facility, hand wash facility, electricity, boundary wall)
-playground facility
-Good Building percentage - compute only pukka and divide by total no. of schools. pukka means concrete buildings
-Computer facility (take the latest data)
-Computer aided ?? - CAL for only upper primary schools and there is library facility. What does that mean?
-Mid day meal - one meal or two provided by schools (govt) during their study period. Most students or children are sent out to work rather than studying because parents were not able to afford food for them
-
-Govt role
-------------
-Govt vs Private ?? - govt - funded by govt. means less fee, shows the govt. involvement. Private - is good for english education, good teaching ??? (some people have strong preference and opinion)
-text books received - refers to the role of the govt. in taking care or spending expenditure in making sure that students get school books
-
-
-
-Our story:
-------------
-
-How people can get benefitted by using this tool?
-Let us say, somebody is migrating to a new state - Bihar people moved to kerala and other states for construction purposes. To Mumbai, lots of people moved there. 
-People who are the above poverty line and lower middle class that is where large numer of people fall into
-
-Interstate migration :
-
-
-
-Look at the gini coefficient and see what all factors are done by almost all of the states good and bad as well. And see what can be done? Otherwise look at the highest gini index and see who is good at what?
-
-North, South, East and West - on specific criterions
-
-Don't get into Gender (male and female), Rural and Urban, language analysis. Since our data does not speak about it
-
+5) 'csv-json' combines the visual representation of states (state map co-ordinates) and the 'final-data' into json format which is easy to program using Web Front end technologies
 
 
